@@ -7,4 +7,14 @@
   .primary {
     background: $blue;
   }
+
+  :global(.dark) & {
+    background: black;
+    color: white;
+  }
+
+  :global(.light) & {
+    background: grey;
+    color: black;
+  }
 }

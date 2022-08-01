@@ -1,0 +1,10 @@
+.button {
+  border: 1px solid black;
+  background: #ddd;
+  color: black;
+  font: inherit;
+
+  .primary {
+    background: $blue;
+  }
+}

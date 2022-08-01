@@ -3,18 +3,23 @@
   background: #ddd;
   color: black;
   font: inherit;
+  border-radius: 2px;
+}
+
+:global(.dark) .button {
+  background: black;
+  color: white;
 
   &.primary {
     background: $blue;
   }
+}
 
-  :global(.dark) & {
-    background: black;
-    color: white;
-  }
+:global(.light) .button {
+  background: grey;
+  color: black;
 
-  :global(.light) & {
-    background: grey;
-    color: black;
+  &.primary {
+    background: white;
   }
 }

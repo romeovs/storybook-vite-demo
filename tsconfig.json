@@ -9,7 +9,12 @@
     "declaration": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "tsx": "preserve"
+    "tsx": "preserve",
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules"
+      }
+    ]
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules", "dist"]

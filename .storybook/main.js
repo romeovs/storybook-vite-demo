@@ -6,4 +6,7 @@ module.exports = {
     builder: "@storybook/builder-vite",
     disableTelemetry: true,
   },
+  features: {
+    storyStoreV7: true,
+  },
 }
